@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoa_bakarrik"
+    tools:context="eus.domeinuak.lehenhitzaeuskaraz.Nagusia">
+
+    <ImageView
+        android:id="@+id/logoaImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:srcCompat="@drawable/logoa"
+        tools:ignore="contentDescription"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/deskribapenaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="@dimen/irudiTestuDistantziaPortrait"
+        android:paddingEnd="14dp"
+        android:paddingStart="14dp"
+        android:text="@string/sarrerako_azalpena"
+        android:textSize="@dimen/testuTamaina"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoaImageView"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/euskaratuButton"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginRight="57dp"
+        android:layout_marginStart="57dp"
+        android:backgroundTint="@color/Botoi_kolorea"
+        android:text="@string/euskaratu_botoia"
+        android:textColor="@color/botoi_testu_kolorea"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:textColor="@android:color/holo_red_dark" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        app:layout_constraintGuide_percent="0.05"
+        android:orientation="horizontal" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline3"
+        app:layout_constraintGuide_percent="0.81"
+        android:orientation="horizontal" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline5"
+        app:layout_constraintGuide_percent="0.39"
+        android:orientation="horizontal" />
+
+</android.support.constraint.ConstraintLayout>

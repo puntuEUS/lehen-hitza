@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Lehen Hitza</string>
+
+    <!-- Pantaila nagusiaren testuak -->
+    <string name="sarrerako_azalpena">Aplikazio eta webguneek zure gailuaren hizkuntza neurtzen dute eta horren arabera garatzen dituzte beren zerbitzu eta edukiak. \n\nJar ezazu euskaraz behean sakatuta.</string>
+    <string name="euskaratu_botoia">Gailua euskaratu</string>
+
+    <!-- Dialogoetan erabilitako testuak -->
+    <string name="dialogoaOnartu">Ados</string>
+    <string name="dialogoaUtzi">Utzi</string>
+    <string name="dialogoaZabaldu">Zabaldu</string>
+    <string name="euskaratutaDagoDeskribapena">Zorionak, zure gailua euskaraz dago! Zabaldu zure lagunei beraiek ere egin dezaten!</string>
+    <string name="euskaraDaukaDeskribapena">Zure gailua euskaraz jar daiteke. Horretarako, hurrengo pantailako hizkuntz-zerrendan hautatu Euskara eta Ados sakatu.</string>
+    <string name="euskaraEzarriDu">Zorionak! Hemendik aurrera zure gailua euskaraz erabiliko duzu, zabaldu lagunei!</string>
+    <string name="euskararikEzDeskribapena">Zoritxarrez, zure gailua ezin da euskaraz jarri. Zabaldu zure lagunei beraiek egin dezaten!</string>
+
+    <!-- Aplikazioaren zabaltze mezua -->
+    <string name="zabaltzeMezua">Mugikorra euskaraz jarri dut Lehen Hitza aplikazioarekin. Egin zuk ere eta zabaldu! #lehenhitza http://www.labur.eus/lehenhitzapp</string>
+
+</resources>
